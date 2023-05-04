@@ -1,1 +1,3 @@
-"# comp416" 
+# comp416
+
+Graphics project for ECE TUC

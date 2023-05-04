@@ -1,0 +1,608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &93752834381547173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2456805412237991811}
+  - component: {fileID: 2236796230853842360}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2456805412237991811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93752834381547173}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -27.1, y: 0, z: -12.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2236796230853842360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93752834381547173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+--- !u!1 &1587831046550909928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1775322995008982471}
+  - component: {fileID: 4692596548625913802}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1775322995008982471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587831046550909928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.6, y: 0, z: -1.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4692596548625913802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587831046550909928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+--- !u!1 &1614257515071226765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6490024549209379141}
+  - component: {fileID: 4468344566110899411}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6490024549209379141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614257515071226765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.6, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4468344566110899411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614257515071226765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+--- !u!1 &3910105490799094030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 447690349873279169}
+  - component: {fileID: 8979672318683519201}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &447690349873279169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3910105490799094030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: -2.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8979672318683519201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3910105490799094030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+--- !u!1 &4587582883120700990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7174939201852093345}
+  - component: {fileID: 7412569129465543954}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7174939201852093345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4587582883120700990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.3, y: 0, z: -4.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7412569129465543954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4587582883120700990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+--- !u!1 &5052210564822634042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7235069759779536061}
+  - component: {fileID: 2455292464406426202}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7235069759779536061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5052210564822634042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -24.2, y: 0, z: 4.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2455292464406426202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5052210564822634042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+--- !u!1 &5060477242917719595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245879554210806747}
+  - component: {fileID: 1184162850877396902}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1245879554210806747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5060477242917719595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.1, y: 0, z: -6.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1184162850877396902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5060477242917719595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+--- !u!1 &5946641145359380735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5325048980127345956}
+  - component: {fileID: 8025010905375120442}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5325048980127345956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946641145359380735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.6, y: 0, z: -2.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8025010905375120442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946641145359380735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+--- !u!1 &8119587930909025240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2689079632695582454}
+  - component: {fileID: 3690072078162059228}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2689079632695582454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8119587930909025240}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.4, y: 0, z: -3.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3690072078162059228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8119587930909025240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+--- !u!1 &9024499491173672004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4374940870064646755}
+  - component: {fileID: 3391929141758207927}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4374940870064646755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9024499491173672004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.2, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3391929141758207927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9024499491173672004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 6186308574006625596, guid: 37293ed4cebff904ba3151ee4245d8d4, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+--- !u!1 &9034999421946588831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7440209020418417087}
+  - component: {fileID: 5736234795099366621}
+  m_Layer: 0
+  m_Name: DoodadSpawnPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 8fdae4ac756ed6047b01021ff0cc3ebb, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7440209020418417087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9034999421946588831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4, y: 0, z: -15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9177749775433733017}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5736234795099366621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9034999421946588831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e245237b3be2674ead6040413ce3736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  templateObjects:
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 7821513495900680756, guid: 14c464e5af3477147a69e8fda003bccf, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 512327439406221692, guid: d0ffed6c878400941a9e89af75972525, type: 3}
+  - {fileID: 6186308574006625596, guid: b055e2c67e2871947ad051c6c73e1efa, type: 3}
+--- !u!1 &9177749775433733030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9177749775433733017}
+  m_Layer: 0
+  m_Name: LevelTemplate 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9177749775433733017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9177749775433733030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.4, y: 0, z: -15.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1775322995008982471}
+  - {fileID: 5325048980127345956}
+  - {fileID: 6490024549209379141}
+  - {fileID: 447690349873279169}
+  - {fileID: 2689079632695582454}
+  - {fileID: 7174939201852093345}
+  - {fileID: 4374940870064646755}
+  - {fileID: 1245879554210806747}
+  - {fileID: 2456805412237991811}
+  - {fileID: 7235069759779536061}
+  - {fileID: 7440209020418417087}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
